@@ -1,4 +1,3 @@
-
 import java.util.Date;
 
 public class Student {
@@ -15,16 +14,8 @@ public class Student {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Date getBirthdate() {
         return birthdate;
-    }
-
-    public void setBirthdate(Date birthdate) {
-        this.birthdate = birthdate;
     }
 
     public int getAge(Date birthdate) {
